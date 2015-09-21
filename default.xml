@@ -8,7 +8,6 @@
     <project name="azure-storage-java" path="storage-java" groups="java" />
     <project name="azure-documentdb-java" path="documentdb-java" groups="java" />
     <project name="azure-notificationhubs-java-backend" path="notificationhubs-java-backend" groups="java" />
-    <project name="azure-websites-java-remote-debugging" path="websites-java-remote-debugging" groups="java" />
 
     <!-- Ruby projects -->
     <project name="azure-sdk-for-ruby" path="sdk-for-ruby" groups="ruby" />
