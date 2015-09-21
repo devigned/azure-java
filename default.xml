@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <manifest>
     <remote name="azure" fetch="git://github.com/azure/"/>
+    <remote name="devigned" fetch="git://github.com/devigned/"/>
     <default revision="master" remote="azure" />
 
     <!-- Java projects -->
@@ -21,4 +22,7 @@
 
     <!-- CLI projects -->
     <project name="azure-xplat-cli" path="azure-cli" groups="cli" />
+
+    <!-- Docs generation project -->
+    <project name="azure-docs" remote="devigned" path="azure-docs" gropus="docs" />
   </manifest>
