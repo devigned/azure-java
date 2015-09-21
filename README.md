@@ -28,9 +28,9 @@ repo init -u https://github.com/devigned/azure-manifest
 repo init -u https://github.com/devigned/azure-manifest -g <group>
 ```
   - Example: init with only the java group
-  ```bash
-  repo init -u https://github.com/devigned/azure-manifest -g java
-  ```
+```bash
+repo init -u https://github.com/devigned/azure-manifest -g java
+```
 
 ## Sync
 This command will clone the specified init group. Run sync with `repo sync`
