@@ -4,7 +4,7 @@
     <default revision="master" remote="azure" />
 
     <!-- Java projects -->
-    <project name="azure-sdk-for-java" path="sdk-for-java" revision="v0.8.1" groups="java" />
+    <project name="azure-sdk-for-java" path="sdk-for-java" revision="refs/tags/v0.8.1" groups="java" />
     <project name="azure-storage-java" path="storage-java" groups="java" />
     <project name="azure-documentdb-java" path="documentdb-java" groups="java" />
     <project name="azure-notificationhubs-java-backend" path="notificationhubs-java-backend" groups="java" />
