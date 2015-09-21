@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <manifest>
-    <remote name="azure" fetch="https://github.com/azure/"/>
+    <remote name="azure" fetch="git://github.com/azure/"/>
     <default revision="master" remote="azure" />
 
     <!-- Java projects -->
