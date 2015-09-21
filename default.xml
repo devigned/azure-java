@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <manifest>
+    <remote name="azure" fetch="git://github.com/azure/"/>
+    <default revision="master" remote="azure" />
+
+    <!-- Java projects -->
+    <project path="azure-sdk-for-java" name="sdk-for-java" revision="v0.8.1" groups="java" />
+    <project path="azure-storage-java" name="storage-java" groups="java" />
+    <project path="azure-documentdb-java" name="documentdb-java" groups="java" />
+    <project path="azure-notificationhubs-java-backend" name="notificationhubs-java-backend" groups="java" />
+    <project path="azure-websites-java-remote-debugging" name="websites-java-remote-debugging" groups="java" />
+
+    <!-- Ruby projects -->
+    <project path="azure-sdk-for-ruby" name="sdk-for-ruby" groups="ruby" />
+
+    <!-- Nodejs projects -->
+    <project path="azure-sdk-for-node" name="sdk-for-node" groups="node" />
+    <project path="azure-mobile-apps-node" name="mobile-apps-node" groups="node" />
+    <project path="azure-storage-node" name="storage-node" groups="node" />
+    <project path="azure-documentdb-node" name="documentdb-node" groups="node" />
+    <project path="node-sqlserver" name="node-sqlserver" groups="node" />
+
+    <!-- CLI projects -->
+    <project path="azure-xplat-cli" name="azure-cli" groups="cli" />
+  </manifest>
