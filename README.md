@@ -27,7 +27,7 @@ group, then the entire set of projects will be sync'd.
   ```bash
   repo init -u https://github.com/devigned/azure-manifest -g <group>
   ```
- - Example: init with only the java group
+  - Example: init with only the java group
   ```bash
   repo init -u https://github.com/devigned/azure-manifest -g java
   ```
