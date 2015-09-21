@@ -5,6 +5,13 @@ Repo manifest of projects for Azure SDKs.
 This will help you get started pulling down the projects using repo. This project contains a set of groups, which
 correspond to the languages each of the projects are implemented. For example, java, node, ruby, etc...
 
+## Install Repo
+For folks that don't have repo, it can be installed a number of different ways. Here are a few quick links to help you
+get started.
+- Windows: https://github.com/esrlabs/git-repo
+- Mac: `brew install repo`
+- Linux: http://source.android.com/source/downloading.html#installing-repo
+
 ## Init
 The sets of projects can be pulled down all at once or by their individual groups. If init is run without specifying a
 group, then the entire set of projects will be sync'd.
