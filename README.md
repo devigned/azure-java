@@ -20,13 +20,13 @@ The sets of projects can be pulled down all at once or by their individual group
 group, then the entire set of projects will be sync'd.
 
 - To init for all projects:
-  ```
-  repo init -u https://github.com/devigned/azure-manifest
-  ```
+```
+repo init -u https://github.com/devigned/azure-manifest
+```
 - To init for a single group:
-  ```bash
-  repo init -u https://github.com/devigned/azure-manifest -g <group>
-  ```
+```bash
+repo init -u https://github.com/devigned/azure-manifest -g <group>
+```
   - Example: init with only the java group
   ```bash
   repo init -u https://github.com/devigned/azure-manifest -g java
