@@ -4,22 +4,22 @@
     <default revision="master" remote="azure" />
 
     <!-- Java projects -->
-    <project path="azure-sdk-for-java" name="sdk-for-java" revision="v0.8.1" groups="java" />
-    <project path="azure-storage-java" name="storage-java" groups="java" />
-    <project path="azure-documentdb-java" name="documentdb-java" groups="java" />
-    <project path="azure-notificationhubs-java-backend" name="notificationhubs-java-backend" groups="java" />
-    <project path="azure-websites-java-remote-debugging" name="websites-java-remote-debugging" groups="java" />
+    <project name="azure-sdk-for-java" path="sdk-for-java" revision="v0.8.1" groups="java" />
+    <project name="azure-storage-java" path="storage-java" groups="java" />
+    <project name="azure-documentdb-java" path="documentdb-java" groups="java" />
+    <project name="azure-notificationhubs-java-backend" path="notificationhubs-java-backend" groups="java" />
+    <project name="azure-websites-java-remote-debugging" path="websites-java-remote-debugging" groups="java" />
 
     <!-- Ruby projects -->
-    <project path="azure-sdk-for-ruby" name="sdk-for-ruby" groups="ruby" />
+    <project name="azure-sdk-for-ruby" path="sdk-for-ruby" groups="ruby" />
 
     <!-- Nodejs projects -->
-    <project path="azure-sdk-for-node" name="sdk-for-node" groups="node" />
-    <project path="azure-mobile-apps-node" name="mobile-apps-node" groups="node" />
-    <project path="azure-storage-node" name="storage-node" groups="node" />
-    <project path="azure-documentdb-node" name="documentdb-node" groups="node" />
-    <project path="node-sqlserver" name="node-sqlserver" groups="node" />
+    <project name="azure-sdk-for-node" path="sdk-for-node" groups="node" />
+    <project name="azure-mobile-apps-node" path="mobile-apps-node" groups="node" />
+    <project name="azure-storage-node" path="storage-node" groups="node" />
+    <project name="azure-documentdb-node" path="documentdb-node" groups="node" />
+    <project name="node-sqlserver" path="node-sqlserver" groups="node" />
 
     <!-- CLI projects -->
-    <project path="azure-xplat-cli" name="azure-cli" groups="cli" />
+    <project name="azure-xplat-cli" path="azure-cli" groups="cli" />
   </manifest>
