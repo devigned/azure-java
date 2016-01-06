@@ -23,6 +23,7 @@
     <!-- CLI projects -->
     <project name="azure-xplat-cli" path="azure-cli" groups="cli" />
 
-    <!-- Docs generation project -->
+    <!-- Docs generation project 
     <project name="azure-docs" remote="devigned" path="azure-docs" groups="docs" />
+    -->
   </manifest>
