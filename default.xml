@@ -5,23 +5,23 @@
     <default revision="master" remote="azure" />
 
     <!-- Java projects -->
-    <project name="azure-sdk-for-java" path="sdk-for-java" groups="java" />
-    <project name="azure-storage-java" path="storage-java" groups="java" />
-    <project name="azure-documentdb-java" path="documentdb-java" groups="java" />
-    <project name="azure-notificationhubs-java-backend" path="notificationhubs-java-backend" groups="java" />
+    <project name="azure-sdk-for-java" path="java/azure-sdk" groups="java" />
+    <project name="azure-storage-java" path="java/storage" groups="java" />
+    <project name="azure-documentdb-java" path="java/documentdb" groups="java" />
+    <project name="azure-notificationhubs-java-backend" path="java/notificationhubs" groups="java" />
 
     <!-- Ruby projects -->
-    <project name="azure-sdk-for-ruby" path="sdk-for-ruby" groups="ruby" />
+    <project name="azure-sdk-for-ruby" path="ruby/azure-sdk" groups="ruby" />
 
     <!-- Nodejs projects -->
-    <project name="azure-sdk-for-node" path="sdk-for-node" groups="node" />
-    <project name="azure-mobile-apps-node" path="mobile-apps-node" groups="node" />
-    <project name="azure-storage-node" path="storage-node" groups="node" />
-    <project name="azure-documentdb-node" path="documentdb-node" groups="node" />
-    <project name="node-sqlserver" path="node-sqlserver" groups="node" />
+    <project name="azure-sdk-for-node" path="node/azure-sdk" groups="node" />
+    <project name="azure-mobile-apps-node" path="node/mobile-apps" groups="node" />
+    <project name="azure-storage-node" path="node/storage" groups="node" />
+    <project name="azure-documentdb-node" path="node/documentdb" groups="node" />
+    <project name="node-sqlserver" path="node/sqlserver" groups="node" />
 
     <!-- CLI projects -->
-    <project name="azure-xplat-cli" path="azure-cli" groups="cli" />
+    <project name="azure-xplat-cli" path="cli/azure-cli" groups="cli" />
 
     <!-- Docs generation project 
     <project name="azure-docs" remote="devigned" path="azure-docs" groups="docs" />
